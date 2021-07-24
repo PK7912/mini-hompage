@@ -1,0 +1,57 @@
+.content-box {
+  position: relative;
+}
+
+.scroll-box {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow: auto;
+}
+.photo-box {
+  margin-bottom: 2rem;
+}
+.photo_title {
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  font-family: "BinggraeSamanco";
+  font-size: 1.2rem;
+  color: whitesmoke;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
+  background-color: steelblue;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.photo-contents {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-date {
+  font-size: 1.1rem;
+}
+
+.photo_page {
+  margin-bottom: 1rem;
+}
+
+.photo-page > img {
+  max-width: 100%;
+}
+
+.photo-description {
+  font-size: 0.8rem;
+}
+
+.photo_text {
+  font-family: "BinggraeSamanco";
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
